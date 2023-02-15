@@ -35,6 +35,9 @@
 
 .weather-container h1 {
   font-size: 20px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
 }
 
 .weather-container h1,

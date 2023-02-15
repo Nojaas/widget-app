@@ -30,7 +30,6 @@ function WeatherCard() {
 
             fetchData(URL, params).then((data) => {
                 if (data.cod === 200) setWeather(data);
-                console.log(data);
             });
         } else setWeather(null);
     }, [address]);
